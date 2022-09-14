@@ -7,14 +7,13 @@ void print_alphabet_xten(void)
 {
 	int count;
 	char low;
-
-	for (low = 'a'; low <= 'z'; low++)
 	{
-		count = 0;
-		while (count <= 9)
+		for (count = 0; count <= 9; count++)
 		{
+			for (low = 'a'; low <= 'z'; low++)
+			{
 			_putchar(low);
-			count++;
+			}
 		}
 	}
 	_putchar('\n');
