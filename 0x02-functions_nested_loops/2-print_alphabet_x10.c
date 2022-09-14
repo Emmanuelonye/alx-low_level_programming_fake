@@ -1,20 +1,19 @@
 #include "main.h"
+
 /**
- * print_alphabet_xten -prints lowercase 10 times
- * No Return type.
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase.
  */
-void print_alphabet_xten(void)
+
+void print_alphabet_x10(void)
 {
-	int count;
+	int count = 0;
 	char low;
+
+	while (count++ <= 9)
 	{
-		for (count = 0; count <= 9; count++)
-		{
-			for (low = 'a'; low <= 'z'; low++)
-			{
-			_putchar(low);
-			}
-		}
-	}
+	for (low = 'a'; low <= 'z'; low++)
+	_putchar(low);
+
 	_putchar('\n');
+	}
 }
