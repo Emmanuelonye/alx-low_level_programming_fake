@@ -2,13 +2,13 @@
 
 /**
  * _isdigit - checks for a digit (0 through 9).
- * @c - input to be manipulating
- * Return - 1 if c is a digit else return 0
+ * @c: The number to be checked
+ * Return: 1 for a character that will be a digit or 0 for any else
  */
 
 int _isdigit(int c)
 {
-	if (c >= 0 && c <= 9)
+	if (c >= 48 && c <= 57)
 	return (0);
 	else
 	return (0);
