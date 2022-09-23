@@ -1,20 +1,11 @@
-#include<stdio.h>
-#include<unistd.h>
-
+#include <stdio.h>
+#include <unistd.h>
 /**
- * main - run all functions
- *
- * Description: Change standard error message
- * Return: Return 1 and exit
+ * main - Prints out the last part of a quote in the standard error.
+ * Return: 1 if success.
  */
 int main(void)
 {
-	int l;
-
-	l =
-	  sizeof("and that piece of art is useful - Dora Korpar, 2015-10-19");
-
-	write(2,
-	      "and that piece of art is useful - Dora Korpar, 2015-10-19\n", l);
+	write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", 38);
 	return (1);
 }
