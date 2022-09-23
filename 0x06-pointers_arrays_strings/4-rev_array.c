@@ -1,21 +1,4 @@
-
-corbin-coleman
-/
-holbertonschool-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-holbertonschool-low_level_programming/0x05-pointers_arrays_strings/4-main.c
-@corbin-coleman
-corbin-coleman I changed some stuff
- 1 contributor
-41 lines (37 sloc)  662 Bytes
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
