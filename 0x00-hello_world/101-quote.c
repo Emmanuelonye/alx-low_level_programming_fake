@@ -1,16 +1,20 @@
-include <unistd.h>
+#include<stdio.h>
+#include<unistd.h>
+
 /**
- * main - Prints "and that piece of art is useful" - Dora Korpar, 201
-5-10-19",
- *                followed by a new line, to standard error.
+ * main - run all functions
  *
- * Return: Always 1.
+ * Description: Change standard error message
+ * Return: Return 1 and exit
  */
 int main(void)
 {
-        write(2,
-              "and that piece of art is useful\" - Dora Korpar, 2015-
-10-19\n",
-              59);
-        return (1);
+	int l;
+
+	l =
+	  sizeof("and that piece of art is useful - Dora Korpar, 2015-10-19");
+
+	write(2,
+	      "and that piece of art is useful - Dora Korpar, 2015-10-19\n", l);
+	return (1);
 }
