@@ -5,15 +5,15 @@
  *
  * Return : Always 0.
  */
-int main ()
+int main()
 {
 	char c;
 	c = 'a';
-	while (c = 'z')
+	while (c <= 'z')
 	{
-	putchar(%c, c);
+	putchar(c);
 	c++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
