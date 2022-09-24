@@ -1,20 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - entry pount.
- *
+ * main - entyry.
  * return : always 0 (success).
  */
 int main(void)
 {
 	char c;
 
-	c = 'a';
-	while (c <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
-	putchar(c);
-	c++;
+		if (c != 'q' && c != 'e')
+		putchar(c);
 	}
-	putchar('\n');
 	return (0);
 }
